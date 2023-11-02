@@ -41,3 +41,5 @@ const Explore = () => {
 };
 
 export default Explore;
+
+// Newline character at the end of the file

@@ -30,3 +30,5 @@ const Insights = () => (
 );
 
 export default Insights;
+
+// Newline character at the end of the file

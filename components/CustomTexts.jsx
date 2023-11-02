@@ -23,3 +23,5 @@ export const TitleText = ({ title, textStyles}) => (
     {title}
   </motion.h2>
 );
+
+// Newline character at the end of the file

@@ -39,3 +39,5 @@ const World = () => (
 );
 
 export default World;
+
+// Newline character at the end of the file

@@ -51,3 +51,5 @@ const Feedback = () => (
 );
 
 export default Feedback;
+
+// Newline character at the end of the file

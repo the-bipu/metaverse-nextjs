@@ -45,3 +45,5 @@ const GetStarted = () => (
 );
 
 export default GetStarted;
+
+// Newline character at the end of the file

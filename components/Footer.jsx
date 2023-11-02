@@ -51,3 +51,5 @@ const Footer = () => (
 );
 
 export default Footer;
+
+// Newline character at the end of the file

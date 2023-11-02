@@ -45,3 +45,5 @@ const WhatsNew = () => (
 );
 
 export default WhatsNew;
+
+// Newline character at the end of the file

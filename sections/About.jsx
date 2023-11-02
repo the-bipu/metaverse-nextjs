@@ -41,3 +41,5 @@ const About = () => (
 );
 
 export default About;
+
+// Newline character at the end of the file
