@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Metaverse (Next.js)
+
+A one-page, animation-heavy landing site for a fictional "Metaverse" platform, built while following a [JavaScript Mastery](https://www.youtube.com/@javascriptmastery) tutorial. Built with Next.js, Framer Motion, and Tailwind CSS.
+
+This was done purely as a learning exercise — to practice turning a design into a real, animated, responsive website using Next.js and Framer Motion.
+
+## Credit
+
+This project follows the tutorial **["Build and Deploy a Modern Next.js Website With Framer Motion & Tailwind CSS"](https://www.youtube.com/watch?v=ugCN_gynFYw)** by [JavaScript Mastery](https://www.youtube.com/@javascriptmastery). All credit for the original design and project structure goes to JS Mastery — this repo is my own build-along while learning from it.
+
+## What I practiced
+
+- Structuring a Next.js app into reusable sections/components
+- Scroll and entrance animations with Framer Motion
+- Responsive layouts with Tailwind CSS
+- Turning a design into a working one-page site
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+git clone https://github.com/the-bipu/metaverse-nextjs.git
+cd metaverse-nextjs
+npm install
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Project Structure
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```
+metaverse-nextjs/
+├── app/            # Next.js app router pages & layout
+├── components/     # Reusable UI components
+├── sections/       # Page sections (hero, features, etc.)
+├── constants/       # Static content/data used across sections
+├── styles/          # Global styles
+├── utils/            # Helper utilities
+└── public/            # Static assets
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## License
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is for learning purposes, following the JS Mastery tutorial linked above. If you're learning the same course, feel free to reference it, but the original design credit belongs to JS Mastery.
